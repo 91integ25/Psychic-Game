@@ -17,14 +17,14 @@ function lose() {
 				lettersGuessed = [];
 
 				document.getElementById("losses").innerHTML = loseCount++;
-				console.log("you lose")
+				alert("you lose")
 
 			}
 			
 		}
 		
 		function win() {
-			console.log("You win!!")
+			alert("You win!!")
     			
     			document.getElementById('wins').innerHTML = winCount++;
     			lettersGuessed = [];
@@ -33,7 +33,7 @@ function lose() {
 		
 		function tryAgain() {
 				
-    			console.log("try again")
+    			alert("try again")
 				
 				document.getElementById("guessesLeft").innerHTML = guessesLeft--;
 
